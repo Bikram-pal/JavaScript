@@ -30,3 +30,27 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction)
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive), heap(Non-primitive)
+// example of stack
+let name= "bikram";
+let name2= name;
+
+name2="roy";
+console.log(name2);
+console.log(name);
+// example of heap
+let object= {
+    number: 12,
+    email: "pqlbikram557@gmail.com",
+}
+
+let output= object
+console.log(output)
+
+output.email= "bikrama"
+
+console.log(object)
