@@ -14,7 +14,7 @@ let temp= null;
 let temp1= undefined;
 let temp2= true;
 
-// console.table([temp,temp1,temp2]); // null, undefined, true
+// console.table([typeof temp,typeof temp1,typeof temp2]); // null, undefined, true
 // "33"==> 33
 // "33abc"==> NaN
 // true==> 1; false==> 0;
@@ -51,8 +51,8 @@ let str3= str1+str2;
 // console.log(1+1+"2");
 // console.log("2"+1+1);
 
-console.log(+true);
-console.log(+"");
+// console.log(+true);
+// console.log(+"");
 
 let num1, num2, nm3;
 
@@ -60,4 +60,4 @@ num1 = num2= numm3= 2+2
 
 let gamecounter = 100
 gamecounter++;
-console.log(gamecounter);
+// console.log(gamecounter);
