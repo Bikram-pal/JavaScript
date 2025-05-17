@@ -45,9 +45,33 @@ const user = [
 ]
 // console.log(user[1].email2);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // ==> arrays
-console.log(Object.values(tinderUser)); // ==> arrays
-console.log(Object.entries(tinderUser)); //==> arrays under arrays
+// console.log(Object.keys(tinderUser)); // ==> arrays
+// console.log(Object.values(tinderUser)); // ==> arrays
+// console.log(Object.entries(tinderUser)); //==> arrays under arrays
 
+
+const course = {
+    course : "js in hindi",
+    course_teacher : "Bikram"
+}
+
+const {course_teacher : teacher} = course
+
+// console.log(course_teacher);
+console.log(teacher);
+
+// {
+//     "name": "hitesh",
+//     "courseName": "js in hindi",
+//     "price": "free"
+// }// jason .. it an api
+
+// [
+// {},
+// {},
+// {}
+
+// ]
+// random user me ... ==> famous api
